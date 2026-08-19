@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plop — Dog Poop Tracker · Support</title>
+    <meta
+      name="description"
+      content="Support and help for Plop, the friendly dog poop & health tracker. Contact us at jianghankun4@gmail.com."
+    />
+    <style>
+      :root {
+        --bg: #fbf3e7;
+        --bg-grad-top: #fcf7ee;
+        --bg-grad-bottom: #ede0cb;
+        --card: #ffffff;
+        --text: #3e2f26;
+        --muted: #8a7869;
+        --border: #e0d3c0;
+        --accent: #b06a3b;
+        --accent-deep: #8a4f29;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        color: var(--text);
+        background: radial-gradient(
+          120% 85% at 50% 0%,
+          var(--bg-grad-top) 0%,
+          var(--bg-grad-bottom) 100%
+        );
+        background-attachment: fixed;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 56px 22px 72px;
+      }
+      header { text-align: center; margin-bottom: 40px; }
+      .logo { font-size: 56px; line-height: 1; }
+      h1 {
+        font-size: 40px;
+        margin: 12px 0 6px;
+        letter-spacing: -0.5px;
+        font-weight: 800;
+      }
+      .tagline { color: var(--muted); font-size: 17px; margin: 0; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 26px 26px;
+        margin: 18px 0;
+        box-shadow: 0 4px 14px rgba(62, 47, 38, 0.06);
+      }
+      h2 {
+        font-size: 22px;
+        margin: 0 0 10px;
+        font-weight: 800;
+      }
+      p { margin: 0 0 12px; }
+      p:last-child { margin-bottom: 0; }
+      a { color: var(--accent-deep); font-weight: 700; }
+      .btn {
+        display: inline-block;
+        margin-top: 6px;
+        padding: 13px 22px;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 16px;
+        font-weight: 700;
+        box-shadow: 0 8px 18px rgba(176, 106, 59, 0.3);
+      }
+      .faq h3 {
+        font-size: 16px;
+        margin: 18px 0 4px;
+        font-weight: 800;
+      }
+      .faq h3:first-child { margin-top: 0; }
+      .faq p { color: var(--muted); }
+      ul { margin: 6px 0 0; padding-left: 20px; color: var(--muted); }
+      li { margin-bottom: 6px; }
+      footer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo">🐾</div>
+        <h1>Plop</h1>
+        <p class="tagline">The friendly dog poop &amp; health tracker</p>
+      </header>
+
+      <section class="card">
+        <h2>Need a hand?</h2>
+        <p>
+          We'd love to hear from you — questions, bugs, feature ideas, or just to
+          say hi. We usually reply within a couple of days.
+        </p>
+        <p>
+          <a class="btn" href="mailto:jianghankun4@gmail.com"
+            >Email support</a
+          >
+        </p>
+        <p style="margin-top: 14px; color: var(--muted); font-size: 14px">
+          Or write to us directly at
+          <a href="mailto:jianghankun4@gmail.com">jianghankun4@gmail.com</a>.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>About Plop</h2>
+        <p>
+          Plop helps you log your dog's poops in seconds — consistency, color, a
+          photo, a rating, the time, and where it happened — then see it all as a
+          journal and on a map. It's a warm, private little health diary that
+          makes it easy to spot the changes a vet would want to know about. Track
+          as many dogs as you like.
+        </p>
+      </section>
+
+      <section class="card faq">
+        <h2>Common questions</h2>
+
+        <h3>Do I need an account to use Plop?</h3>
+        <p>
+          No. Plop works fully offline and your data stays on your device. Cloud
+          backup is optional — turn it on in Settings with just your email if you
+          want your entries to sync to a new phone.
+        </p>
+
+        <h3>How do I back up my data?</h3>
+        <p>
+          Open Settings → Back Up My Data and enter your email. We'll send a
+          secure sign-in link. Once backed up, signing in on a new device
+          restores everything.
+        </p>
+
+        <h3>Why does Plop ask for location or photos?</h3>
+        <p>
+          Both are optional. Location tags where an entry happened so it can
+          appear on your map; photos let you attach a picture to an entry. Deny
+          either and the app still works.
+        </p>
+
+        <h3>How do I delete my data?</h3>
+        <p>
+          Settings → Clear All Entries removes your logs. If you set up a backup,
+          Delete Account removes your cloud data too, and you can choose to erase
+          everything on the device.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Privacy</h2>
+        <p>
+          Plop is private by default. Your data lives on your device unless you
+          choose to turn on cloud backup. We don't show ads and we don't sell
+          your data. If you enable backup, your entries and email are stored
+          securely so you can restore them on a new device.
+        </p>
+      </section>
+
+      <footer>2026 Hankun Jiang · Plop</footer>
+    </div>
+  </body>
+</html>
